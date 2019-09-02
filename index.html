@@ -1,0 +1,55 @@
+<!-- Students: Our work lies in the slideshow.js file. -->
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+
+  </head>
+
+  <body>
+
+    <p>
+        <div>Time Remaining: <span id='time-rem'></span></div>
+        <div>Correct: <span id='correct-div'>0</span></div>
+        <div>Incorrect: <span id='incorrect-div'>0</span></div>
+    </p>
+    <div id="form-container">
+    <form id="quiz-form">
+            <p><div>Question: <span id='question-div'>Favorite Color?</span></div></p>
+            <div>
+              <input type="radio" id="answerChoice1"
+               name="answer" value="blue">
+              <label for="contactChoice1">blue</label>
+            </div>
+            <div>
+              <input type="radio" id="answerChoice2"
+               name="answer" value="brown">
+              <label for="contactChoice2">brown</label>
+            </div>
+            <div>
+              <input type="radio" id="answerChoice3"
+               name="answer" value="pink">
+              <label for="contactChoice3">pink</label>
+            </div>
+            <div>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+    <div id="image-holder"></div>
+    
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="quiz.js"></script>
+
+  </body>
+
+</html>
